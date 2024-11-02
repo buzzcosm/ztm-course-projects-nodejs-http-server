@@ -54,3 +54,5 @@ npm audit fix
 - [Mozilla - Origin](https://developer.mozilla.org/en-US/docs/Glossary/Origin)
 - [Mozilla - Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 - [Mozilla - Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Mozilla - Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [Wikipedia - Whitelist](https://en.wikipedia.org/wiki/Whitelist)
