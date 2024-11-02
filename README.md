@@ -13,7 +13,7 @@
 TODO
 
 ## Process
-
+<!-- 
 Install npm packages ⬇
 
 ```shell
@@ -44,7 +44,7 @@ Fix vulnerabilities if needed ✅
 
 ```shell
 npm audit fix
-```
+``` -->
 
 ## Useful references
 
