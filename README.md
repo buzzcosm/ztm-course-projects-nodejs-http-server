@@ -10,41 +10,15 @@
 
 ## Description
 
-TODO
+This project implements a basic HTTP server as a learning exercise, simulating RESTful endpoints for managing a "friends" list. It introduces key HTTP methods, with `GET` requests for viewing the list or individual items and `POST` requests to add new entries. Additionally, the server demonstrates sending both JSON and HTML responses to highlight different content types. The project emphasizes core backend concepts, such as route handling, JSON data handling, and HTTP status codes, making it a useful exercise for understanding foundational web server operations in Node.js.
 
 ## Process
-<!-- 
-Install npm packages ⬇
+
+Run http-server 🏎️💨
 
 ```shell
-npm install
+node index.js
 ```
-
-Run node application 🏎️💨
-
-```shell
-npm start
-# or start with nodemon
-npm run dev
-```
-
-Clean packages 🧹🪣
-
-```shell
-npm run clean
-```
-
-Check vulnerabilities 🤔
-
-```shell
-npm audit
-```
-
-Fix vulnerabilities if needed ✅
-
-```shell
-npm audit fix
-``` -->
 
 ## Useful references
 
