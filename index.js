@@ -51,7 +51,20 @@ const friends = [
 server.on('request', (req, res) => {
   const items = req.url.split('/');
   // /friends/2 => ['', 'friends', '2']
-  if (items[1] === "friends") {
+  if (req.method === 'POST' && items[1] === "friends") {
+    req.on('data', (data) => {
+      const friend = data.toString();
+      /* 
+        Example: call from browser console
+        fetch('http://localhost:3000/friends', {
+            method: 'POST',
+            body: JSON.stringify({ id: 3, name: 'Ryan Dohl' })
+        });
+      */
+      console.log('Request:', friend); // Request: {"id":3,"name":"Ryan Dohl"}
+      friends.push(JSON.parse(friend));
+    });
+  } else if (req.method === 'GET' && items[1] === "friends") {
     res.statusCode = 200;
     res.setHeader("Content-Type", "application/json");
     if (items.length === 3) {
@@ -61,7 +74,7 @@ server.on('request', (req, res) => {
     } else {
       res.end(JSON.stringify(friends));
     }
-  } else if (items[1] === "messages") {
+  } else if (req.method === 'GET' && items[1] === "messages") {
     res.setHeader("Content-Type", "text/html");
     res.write('<html>');
     res.write('<body>');
