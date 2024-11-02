@@ -52,4 +52,4 @@ npm audit fix
 - [What is an API](https://www.mulesoft.com/api/what-is-an-api)
 - [Mozilla - HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [Mozilla - Origin](https://developer.mozilla.org/en-US/docs/Glossary/Origin)
-- [Mozilla - Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
+- [Mozilla - Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
